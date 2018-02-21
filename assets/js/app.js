@@ -18,6 +18,8 @@ $.ajax({
             for (x in data.data) {
                 $('ul').append('<li><img src="' + data.data[x].images.normal +  '"></li>');
                 $('div').append('<p>' + data.data[x].html_url + '></p>');
+                $('div2').append('<p>' + data.data[x].name + '></p>');
+                $('div3').append('<p>' + data.data[x].username + '></p>');
                 // $('ul').append("<li class='port'>" + "<img class='img-responsive' src='" + data.data[x].images.normal + "'><div class='overlay'><div class='text'>" + title[0] + "</div></div><div class='icon-port hidden-xs hidden-sm'>" +
                 //     "<span class='view-icon'>" +
                 //     "<i class='fa fa-eye' aria-hidden='true'></i>" + " " +
