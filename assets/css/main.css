@@ -50,6 +50,7 @@ a{
 .skill-group, .redsocial {
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 8%;
 	padding-left: 10%;
 }
 h5{
@@ -75,9 +76,9 @@ h5{
 	padding: 5px;
 }
 .icos{
- 	padding: 1px;
+ 	padding: 2px;
  	background-color: #fff;
- 	margin-right: auto;
+ 	padding: 4%;
 }
 .cont-portafolio{
 	width: 70%;
@@ -85,21 +86,21 @@ h5{
 	margin-right: auto;
 	padding-left: 10%;
 }
-.cont-dibbble {
-	width: 200px;
-	height: 200px;
+.cont-dribbble {
+	width: auto;
+	height: auto;
 	background-color: #fff;
 	margin-top:4%;
-	padding:5px;
+	padding:5%;;
+	text-align: center;
 
 }
-.img {
+.cont-dribbble .cont-imagenes img {
 	width: 185px;
 	height: 170px;
-	background-color: #000;
+	/* background-color: #000; */
 	padding-top: 10%;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 10%;
 
 }
 ul{
@@ -109,14 +110,28 @@ ul{
 }
 li{
 	display: inline-block;
+	background-color: #e1e1e1;
 }
+
+.cont-images .img-galeria {
+	padding: 10%;
+	text-align: center;
+}
+
 /* #group-dribbble {
 
 
 } */
+
 footer{
-	background-color: #000;
-}
+  /* text-align: center; */
+  background-color: #000;
+  /* position: fixed; */
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto; */
+} *
 .fo-fuente{
 	color: #fff;
 	text-align: center;
+}

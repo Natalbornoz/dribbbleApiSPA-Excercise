@@ -14,9 +14,9 @@
 
 
 //Get Username
-const dribbble = 'RypeArts';
+const dribbble = 'netguru';
 //Amoung of shots to display
- limit = 18;
+limit = 12;
 const token = '1c73ffb7859f2c1c37450789dce2369af5caa9e18c3df1fa30485cfad79081d8';
 //Call Dribble API
 $.ajax({
@@ -29,32 +29,13 @@ $.ajax({
        
             console.log(data);
             for (x in data.data) {
-                $('ul').append('<li><img src="' + data.data[x].images.normal +  '"></li>');
-                $('div').append('<p>' + data.data[x].html_url + '></p>');
-                $('div2').append('<p>' + data.data[x].name + '></p>');
-                $('div3').append('<p>' + data.data[x].username + '></p>');
-                // $('ul').append("<li class='port'>" + "<img class='img-responsive' src='" + data.data[x].images.normal + "'><div class='overlay'><div class='text'>" + title[0] + "</div></div><div class='icon-port hidden-xs hidden-sm'>" +
-                //     "<span class='view-icon'>" +
-                //     "<i class='fa fa-eye' aria-hidden='true'></i>" + " " +
-                //     views_count +
-                //     "</span>" +
-                //     "<span class='coment-icon'>" +
-                //     "<i class='fa fa-comment' aria-hidden='true'></i>" + " " +
-                //     comments_count +
-                //     "</span>" +
-                //     "<span class='like-icon'>" +
-                //     "<i class='fa fa-heart' aria-hidden='true'></i>" + " " +
-                //     likes_count +
-                //     "</span></div></li>");
+                $('.cont-imagenes').append('<li><div class="row"><a class=col-12 href="#"><img src="' + data.data[x].images.normal + '"></a><div class=row><span class=col-12><i class="icos fas fa fa-eye aria-hidden="true"">' + data.data[x].views_count + '</i></span></a><span><i class="icos fa fa-comment aria-hidden="true"">' + data.data[x].comments_count + '</i></span></a><span><i class="icos fa fa-heart aria-hidden="true"">' + data.data[x].likes_count + '</i></span></div></div></li>');
 
+                }
+        },
 
-
-
-            }
-        
-    },
     error: function (data) {
-        console.log(data);
+        console.log('Tenemos inconvenientes con la Api de Dribbble');
     }
 });
 
