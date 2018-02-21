@@ -4,9 +4,15 @@ body{
 .nav>li>a:hover {
 	background-color: #000;
 }
+.logo{
+	width: 70%; 
+	padding: 10%;
+}
+
 a{
 	color: #fff;
 }
+
 .datos {
 	background-color: #fff;
 	width: 60%;
@@ -14,10 +20,16 @@ a{
 	margin-right: auto;
 }	
 
+.info-btn {
+	background-color: #222;
+}
 
+.default:active:hover{
+
+}
 .profile img {
 	width: 60%;
-	margin-top:6%;
+	margin-top:15%;
 }
 .info{
 	margin-top: 1%;
@@ -58,8 +70,13 @@ h5{
 	padding-top: 3px !important;
 	padding: 5px;
 }
-.fa{
+.fab, .fas{
+	padding: 5px;
+}
+.icos{
  	padding: 1px;
+ 	background-color: #fff;
+ 	margin-right: auto;
 }
 .cont-portafolio{
 	width: 70%;
@@ -70,15 +87,15 @@ h5{
 .cont-dibbble {
 	width: 200px;
 	height: 200px;
-	background-color: #000;
+	background-color: #fff;
 	margin-top:4%;
 	padding:5px;
-	
+
 }
 .img {
 	width: 185px;
 	height: 170px;
-	background-color: #fff;
+	background-color: #000;
 	padding-top: 10%;
 	margin-left: auto;
 	margin-right: auto;

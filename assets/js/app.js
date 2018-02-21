@@ -8,3 +8,4 @@
     messagingSenderId: "935773620525"
   };
   firebase.initializeApp(config);
+  //termina para logiarse
