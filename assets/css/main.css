@@ -1,3 +1,126 @@
+
+body{
+	background-color: #e1e1e1
+}
+.nav>li>a:hover {
+	background-color: #000;
+}
+.logo{
+	width: 70%; 
+	padding: 10%;
+}
+
+a{
+	color: #fff;
+}
+
+.datos {
+	background-color: #fff;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+.info-btn {
+	background-color: #222;
+}
+
+.default:active:hover{
+
+}
+.profile img {
+	width: 60%;
+	margin-top:15%;
+}
+.info{
+	margin-top: 1%;
+	margin-left: -10%;
+
+}
+.skills {
+	
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0px;
+	padding: 6px 8px;
+	border: 1px solid #999999;
+	color: #000;
+	border-radius: 4px;
+}
+.skill-group, .redsocial {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+}
+h5{
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
+}
+.redsocial {
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
+}
+.ico-social {
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	color: #444;
+	font-size: 15px !important;
+	padding-top: 3px !important;
+	padding: 5px;
+}
+.fab, .fas{
+	padding: 5px;
+}
+.icos{
+ 	padding: 1px;
+ 	background-color: #fff;
+ 	margin-right: auto;
+}
+.cont-portafolio{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+}
+.cont-dibbble {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	margin-top:4%;
+	padding:5px;
+
+}
+.img {
+	width: 185px;
+	height: 170px;
+	background-color: #000;
+	padding-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+ul{
+	list-style: none;
+	text-decoration-style: none;
+
+}
+li{
+	display: inline-block;
+}
+#group-dribbble {
+
+
+}
+footer{
+	background-color: #000;
+}
+.fo-fuente{
+	color: #fff;
+	text-align: center;
+
 ul, li {
 	list-style: none;
 }
