@@ -2,27 +2,116 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>dribbbleApispa</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dribbbleApispa</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
+
 </head>
 <body>
-<section>
-    <ul> </ul>
-    <div> </div>
-    <div></div>
+<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+<header class="row">
+	<nav class="navbar navbar-inverse">
+	<div class="col-lg-2 col-md-offset-1 ">
+	<img class="logo" src="assets/img/logo-footer-hd.png" alt="">
+	</div>
+		<div class="col-lg-4 col-md-offset-1">
+			<ul class="nav nav-pills">
+			  <li role="presentation"><a href="#">Profile</a></li>
+			  <li role="presentation"><a href="#">Profile</a></li>
+			  <li role="presentation"><a href="#">Messages</a></li>
+			  <li role="presentation"><a href="#">Profile</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-4">
+			<form class="navbar-form navbar-left form-serch" role="search">
+			  <div class="form-group">
+			    <input type="text" class="form-control" placeholder="Search">
+			  </div>
+  			<button type="submit" class="btn btn-default">Buscar</button>
+			</form>
+		</div>
+	</nav>	
+</header>
+
+<!--seccion de informacion por portafolio -->
+<section class="datos">
+
+	<div class="row profile"><!-- Perfil  -->
+		<div class="col-lg-4 col-md-offset-2">
+			<img src="gato.jpg" alt="..." class="img-circle">
+		</div>
+
+		<div class="col-lg-4 info">	
+				<h3>Nombre: mariajose barriga</h3>
+				<h6>Descripcion: diseñadora de pacotilla</h6>
+				<h6>Nombre: mariajose barriga</h6>
+				<h6>Descripcion: developers</h6>
+			<button type="button" class="btn btn-default info-btn">
+			<a href="">
+			<i class="fas fa-envelope"></i>
+			"Her me"
+			</a>
+			</button>
+		</div>		
+	</div>
+
+	<div class="row skill-group"><!-- Skill  -->
+		<div class="col-lg-10">
+		<h5>SKILLS</h5>
+		<a href="#" class="skills ilu">illustracion</a>
+    <a href="#" class="skills icon">icon</a>
+    <a href="#" class="skills charac">characteres</a>
+    <a href="#" class="skills chad">characterdesign</a>
+    <a href="#" class="skills vector">vector</a>
+    <a href="#" class="skills camping">camping</a>
+    <a href="#" class="skills adv">advertising</a>
+    <a href="#" class="skills edit">editorial</a>
+    <a href="#" class="skills ui">ui</a>
+		</div>		
+	</div>
+
+	<div class="row redsocial"><!--redSocial -->
+		<div class="col-lg-10">
+		<h5>REDES SOCIALES</h5>
+    <a href="#" class="ico-social"><i class="fas fa-globe"></i>jonesandcompany.co.za</a>
+    <a href="#" class="ico-social"><i class="fab fa-twitter"></i>Twitter</a>
+    <a href="#" class="ico-social"><i class="fab fa-instagram"></i>Instagram</a>
+    <a href="#" class="ico-social"><i class="fab fa-behance"></i>Behance</a>
+	</div>
 </section>
+<!--seccion de informacion por portafolio -->
+
+<section class="row cont-portafolio">
+	<div class="col-lg-10">
+		<ul id="group-dribbble">
+			<li class="dribbble">
+				<div class="cont-dibbble">
+					<div class="img"><a href="#"><img src=""></a></div>
+					<i class="icos fas fa-comment"></i>	
+					<i class="icos fas fa-eye"></i>
+					<i class="icos fas fa-heart"></i>
+				</div>
+			</li>
+		</ul>
+	</div>	
+</section>
+<footer>
+	<div class="row">
+		<div class="col-lg-12 ">	
+			<h6 class="fo-fuente">Natalia Albornos - MariaJosé Barriga</h6>
+			<h6 class="fo-fuente">dribbbleApispa</h6>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
-    
-  
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
