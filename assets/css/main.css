@@ -25,15 +25,6 @@ a{
 	background-color: #222;
 }
 
-<<<<<<< HEAD
-/* .default:active:hover{
-
-} */
-=======
-.default:active:hover{
-
-}
->>>>>>> 7bfe738beba386ab9891c1a4611232b9208ee39a
 .profile img {
 	width: 60%;
 	margin-top:15%;
@@ -56,10 +47,7 @@ a{
 .skill-group, .redsocial {
 	margin-left: auto;
 	margin-right: auto;
-<<<<<<< HEAD
 	padding-bottom: 8%;
-=======
->>>>>>> 7bfe738beba386ab9891c1a4611232b9208ee39a
 	padding-left: 10%;
 }
 h5{
@@ -85,15 +73,9 @@ h5{
 	padding: 5px;
 }
 .icos{
-<<<<<<< HEAD
  	padding: 2px;
  	background-color: #fff;
  	padding: 4%;
-=======
- 	padding: 1px;
- 	background-color: #fff;
- 	margin-right: auto;
->>>>>>> 7bfe738beba386ab9891c1a4611232b9208ee39a
 }
 .cont-portafolio{
 	width: 70%;
@@ -101,7 +83,6 @@ h5{
 	margin-right: auto;
 	padding-left: 10%;
 }
-<<<<<<< HEAD
 .cont-dribbble {
 	width: auto;
 	height: auto;
@@ -109,7 +90,6 @@ h5{
 	margin-top:4%;
 	padding:5%;;
 	text-align: center;
-
 }
 .cont-dribbble .cont-imagenes img {
 	width: 185px;
@@ -120,7 +100,9 @@ h5{
 
 }
 ul{
-=======
+list-style: none;
+	text-decoration-style: none;
+}
 .cont-dibbble {
 	width: 200px;
 	height: 200px;
@@ -146,22 +128,12 @@ ul{
 li{
 	display: inline-block;
 }
-#group-dribbble {
-
-
-}
 footer{
 	background-color: #000;
 }
 .fo-fuente{
 	color: #fff;
 	text-align: center;
-
-ul, li {
->>>>>>> 7bfe738beba386ab9891c1a4611232b9208ee39a
-	list-style: none;
-	text-decoration-style: none;
-
 }
 li{
 	display: inline-block;
@@ -172,16 +144,8 @@ li{
 	padding: 10%;
 	text-align: center;
 }
-
-/* #group-dribbble {
-
-
-} */
-
 footer{
-  /* text-align: center; */
   background-color: #000;
-  /* position: fixed; */
   bottom: 0;
   margin-right: auto;
   margin-left: auto; */
