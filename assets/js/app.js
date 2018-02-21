@@ -16,7 +16,7 @@
 //Get Username
 const dribbble = 'netguru';
 //Amoung of shots to display
-limit = 12;
+const limit = 12;
 const token = '1c73ffb7859f2c1c37450789dce2369af5caa9e18c3df1fa30485cfad79081d8';
 //Call Dribble API
 $.ajax({
@@ -39,3 +39,6 @@ $.ajax({
     }
 });
 
+function mostrar() {
+    document.getElementById('oculto').style.display = 'block';
+}

@@ -144,6 +144,7 @@ li{
 	padding: 10%;
 	text-align: center;
 }
+
 footer{
   background-color: #000;
   bottom: 0;
@@ -153,4 +154,9 @@ footer{
 .fo-fuente{
 	color: #fff;
 	text-align: center;
+}
+.group-dribbble {
+	text-align: center;
+	height: auto;
+	width: auto;
 }
