@@ -2,6 +2,13 @@
 body{
 	background-color: #e1e1e1
 }
+.nav li{
+	background-color: none;
+}
+
+.nav>li>a {
+	background-color: #222;
+}
 .nav>li>a:hover {
 	background-color: #000;
 }
@@ -23,6 +30,9 @@ a{
 
 .info-btn {
 	background-color: #222;
+}
+.info{
+	padding-top: 10%;
 }
 
 .profile img {
@@ -49,6 +59,13 @@ a{
 	margin-right: auto;
 	padding-bottom: 8%;
 	padding-left: 10%;
+}
+.my-projects{
+	background-color: #000;
+	color: #fff;
+	border-style: none;
+	border-radius: 5px;
+	padding: 1%;
 }
 h5{
 	color: #999;
@@ -125,15 +142,10 @@ list-style: none;
 	padding-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
-
-}
-ul{
-	list-style: none;
-	text-decoration-style: none;
-
 }
 li{
 	display: inline-block;
+	background-color: #e1e1e1
 }
 footer{
 	background-color: #000;
